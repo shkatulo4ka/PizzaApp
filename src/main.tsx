@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { Menu } from "./pages/Menu/Menu"
 import { Cart } from "./pages/Cart/Cart"
