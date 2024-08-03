@@ -1,5 +1,11 @@
+
+.input-wrapper {
+    position: relative;
+
+}
+
 .input {
-    height: 65px;
+    height: 51px;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -10,12 +16,9 @@
     box-shadow: 15px 20px 45px 0px rgba(233, 233, 233, 0.25);
     padding: 16px 30px 16px 44px;
     min-width: 200px;
-
+    
 }
 
-.input-wrapper {
-    position: relative;
-}
 
 .icon {
     position: absolute;

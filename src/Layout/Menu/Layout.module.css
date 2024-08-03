@@ -9,13 +9,7 @@
     flex-direction: column;
     height: 100%;
 }
-.exit {
-    margin-top: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 9px;
-}
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -63,4 +57,12 @@
 
 .content {
     padding: 40px 60px;
+}
+
+.exit {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
 }
