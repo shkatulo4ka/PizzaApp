@@ -9,6 +9,9 @@ import { Product } from './pages/Product/Product.tsx';
 import { PREFIX } from './helpers/API.ts';
 import axios from 'axios';
 import { defer } from 'react-router-dom';
+import { AuthLayout } from './Layout/Auth/AuthLayout.tsx';
+import { Login } from './pages/Login/Login.tsx';
+import { Register } from './pages/Register/Register.tsx';
 
 const Menu = lazy(() => import('./pages/Menu/Menu'));
 
@@ -37,6 +40,20 @@ const router = createBrowserRouter([
             // const { data } = await axios.get(`${PREFIX}/products/${params.id}`);
             // return data;
         }
+      }
+    ]
+  },
+  {
+    path: '/auth',
+    element: <AuthLayout/>,
+    children: [
+      {
+        path: 'login',
+        element: <Login/>
+      },
+      {
+        path: 'register',
+        element: <Register/>
       }
     ]
   },
